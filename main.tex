@@ -1,0 +1,145 @@
+%----------------------------------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage{graphicx}	%Because QR codes to your things is great
+\usepackage{verbatim}
+\usepackage{url}
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%   NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Dillon} % Your first name
+\familyname{Heald} % Your last name
+% All information in this block is optional, comment out any lines you don't need
+\title{Electrical and Computer Engineering}
+\address{Bloubergrant}{Cape Town, 7441}
+\mobile{(+27) 840886666}
+\email{dillon.heald@gmail.com }
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"Design, implement and integrate simple solutions to resolve challenges pragmatically" -- Dillon}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+\vspace{-1.2cm}
+
+%----------------------------------------------------------------------------------------
+%   EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2016--July 2020}{BSc: Eng}{University of Cape Town}{Cape Town}{}{Electrical and Computer Engineering}  % Arguments not required can be left empty
+\cventry{2013--2015}{National Diploma}{Cape Peninsula University of Technology}{Cape Town}{}{Electrical Engineering: Computer Systems}  % Arguments not required can be left empty
+\cventry{2014--2014}{Certificate}{Cisco Networking Academy}{Cape Town}{}{Cisco Certified Network Associate level: 1 to 4}  % Arguments not required can be left empty
+\cventry{Q1-Q2 2014}{Certificate}{CompTIA}{Cape Town}{}{CompTIA A+}  % Arguments not required can be left empty
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%   COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\section{Hardware/Software Skills}
+
+\cvitemwithcomment{Software packages}{\parbox{0.8\textwidth}{Microsoft Windows, Linux (Ubuntu, Raspbian, Redhat), iOS, Android, Google Suite, Microsoft Office (incl. Visio/Access)}}{}
+\cvitemwithcomment{Development packages}{\parbox{0.8\textwidth}{Altium Designer, KiCAD, LTSpice, Arduino IDE, VS-Code, Android Studio, Oracle/Microsoft/My SQL}}{}
+\cvitemwithcomment{$\mu$Processors}{\parbox{0.8\textwidth}{STM (STM32F0), Atmel (ATmega328, ATmega32U4), Microchip (PIC16F0)}}{}
+
+
+%\section{Skills}
+%
+%\cvitemwithcomment{Inter-personal}{\parbox{0.8\textwidth}{
+%  \hspace*{-2.53cm}\cvlistitem{Effective communicator with the ability to convey concise %points both verbally and in writing} \hspace*{-2.53cm}\cvlistitem{Excellent}
+%}}{}
+%\cvitemwithcomment{Engineering}{\parbox{0.8\textwidth}{
+%  \hspace*{-2.53cm}\cvlistitem{test1} \hspace*{-2.53cm}\cvlistitem{test2}
+%}}{}
+%\cvlistitem{\small Effective communicator with the ability to convey concise points both verbally and in writing}
+
+%----------------------------------------------------------------------------------------
+%   LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Software Languages}
+%\subsection{Software Languages}
+\cvitemwithcomment{Proficient}{\parbox{0.8\textwidth}{C, Java, Python, Assembly (ARM, MIPS), SQL, Bash, MATLAB, Octave, Julia, Latex}}{}
+\cvitemwithcomment{Familiar with}{Delphi, Verilog, P4, C++}{}
+%\subsection{Spoken Languages}
+%\cvitemwithcomment{English}{First language}{Fluent}
+%\cvitemwithcomment{Afrikaans}{Second language}{Conversational}
+%\cvitemwithcomment{German}{Third language}{Informally Understood}
+
+%----------------------------------------------------------------------------------------
+%   EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+\cventry{July 2018 - July 2020}{University of Cape Town}{Tutor}{Rondebosch}{\textit{24 months}}{Provide students with assistance in their labs and mark their assessments for a variety of courses including:}
+\cvlistitem{\small July - Dec. 2018 - 2nd year Analogue Electronics tutor}
+\cvlistitem{\small Jan. - July 2019 - 3rd year Electronic Devices and Circuits tutor, 1st year KiCAD PCB design tutor}
+\cvlistitem{\small July - Dec. 2019 - 3rd year Embedded Systems tutor}
+\cvlistitem{\small Jan. - July 2020 - 1st year KiCAD PCB design tutor}
+\cventry{June 2018 - June 2019}{Center for High Performance Computing}{Super Computing Competitor}{Rondebosch}{\textit{12 months}}{Optimise high performance codes to run on our custom designed cluster computer to compete internationally at ISC'19. Additionally, the following occurred:}
+\cvlistitem{\small Included High Performance Computer training for a week in Austin, Texas}
+\cvlistitem{\small Designed and built our own cluster computer with bleeding edge hardware}
+\cvlistitem{\small Competed against 13 other teams and placed first in the International Super Computing Cluster Competition of 2019}
+%\cventry{December 2016}{Theo-centric Christian Education}{Book binder and printer}{Blouberg}{\textit{2 months}}{Print, bind and shelve grade 0-13 course material for following year}
+\cventry{July 2016}{Intel Corporation}{Intern Hardware Developer}{Johannesburg}{\textit{3 weeks}}{Developed a product to showcase the Intel Arduino 101 development board}
+\cventry{July 2016}{Cobham Satcom}{Intern Software Developer}{Westlake}{\textit{1 month}}{Developed the front-end for business software update scheduler using Embarcadero RAD studio and developed in Delphi}
+\cventry{Jan. 2015-- Dec. 2015}{Cobham Satcom}{Assistant Electronics Technician}{Westlake}{\textit{12 month}}{Tasks for this position included:}
+\cvlistitem{\small Investigation and repair of hardware failures for both Interface and Control Module (Main control board) and Aero Core Module (Digital-to-RF board) of the Satellite Data Unit (SDU).}
+\cvlistitem{\small Liaise with Product Engineers on common points of failure and possible design flaws.}
+\cvlistitem{\small Training staff on repair procedures for the SDU.}
+\cvlistitem{\small Organise/manage departmental improvements.}
+%\cventry{December 2014}{Theo-centric Christian Education}{Book binder and printer}{Blouberg}{\textit{1 month}}{Print, bind and shelve grade 0-13 course material for following year}
+
+%------------
+\section{Projects}
+\begin{center}
+\textsl{The following are a few relevant projects I've designed and built}
+\end{center}
+\hrule
+\vspace{2pt}
+\cvitemwithcomment{Undergrad Thesis}{\flushleft Directional Audio System}{\flushleft Simulated, designed, implemented and tested a system to create a directional beam of audible sound}
+
+\cvitemwithcomment{Wireless Melody Player}{\parbox{4cm}{\flushleft RPi based wireless melody player project}}{\flushleft An embedded systems project consisting of two Raspberry Pis communicating over infrared based UART allowing an android app to play melodies in a remote location}
+
+\cvitemwithcomment{Clock}{\parbox{4cm}{\flushleft 4 digit 7 segment desk clock}}{\flushleft A compact clock built into a wooden box powered by a standalone ATmega328P}
+
+\cvitemwithcomment{Message Board}{\parbox{4cm}{\flushleft BLE controlled 384 LED message display board}}{\flushleft A message board powered by the Intel 101 development board which displays messages sent to it via Bluetooth low energy from a smart phone}
+
+\cvitemwithcomment{USB Media Controller}{\parbox{4cm}{\flushleft USB volume knob with media control keys}}{\flushleft An ATmega32U4 device featuring a rotary encoded volume knob and media keys which interact with any computer over USB to control media}
+
+\cvitemwithcomment{Security System}{\parbox{4cm}{\flushleft Access control system with alarm}}{\flushleft An Arduino Mega powered modular security system featuring a keypad, solenoid, RFID, LCD and a infrared motion sensor used to monitor and control access to a room}\\
+
+\vspace{2pt}
+
+\begin{center}
+Additional hardware and software projects I've worked on can be found on my Github profile:\\
+	\includegraphics[scale=0.4]{SnoWHandS_Github_QRCode.jpg}
+	\\
+	\begin{large}
+		\url{github.com/SnoWHandS}
+	\end{large}
+\end{center}
+
+\section{References}
+
+\textsl{References available on request}
+
+%\include{refs}
+\end{document}
